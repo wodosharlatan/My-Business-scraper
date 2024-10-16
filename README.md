@@ -22,6 +22,16 @@
   14. Input town + keywords, press `Scrape Info`.
   15. Ensure info is being returned to Google Sheet.
 
+## Optional (Format Keywords + Auto append Cities)
+  1. Star the project ⭐ (Optional)
+  2. Clone the project `git clone https://github.com/wodosharlatan/My-Business-scraper.git`
+    1. You can change the keywords, but dont remove separators (===== LANGUAGE =====)
+  3. Start the app
+    1. Run `sh EnviromentMaker.sh` (needed to be done only once)
+    2. Run `sudo sh Start.sh`
+  4. Input town
+  5. Copy the keywords from created `.txt` file and you are all set !
+
 
 
 # HTML

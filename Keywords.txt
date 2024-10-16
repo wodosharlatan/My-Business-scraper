@@ -1,5 +1,3 @@
-=== ENGLISH ===
-
 1. Cafe
 2. Plumbing services
 3. Hair salon
@@ -101,7 +99,7 @@
 99. Event photography
 100. Online store
 
-=== CZECH ===
+=== ENGLISH ===
 
 1. Kavárna
 2. Instalatérské služby
@@ -203,3 +201,5 @@
 98. SEO konzultace
 99. Fotografie z akcí
 100. Online obchod
+
+=== CZECH ===

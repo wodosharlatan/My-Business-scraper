@@ -1,0 +1,1 @@
+echo "CURRENT_USER=$(whoami)" >> .env
