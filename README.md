@@ -19,7 +19,7 @@
   11. Make a web app deployment. 
   12. Grant access to the app. 
   13. Copy the link, open in a new tab. 
-  14. Input keywords, press `Scrape Info`.
+  14. Input town + keywords, press `Scrape Info`.
   15. Ensure info is being returned to Google Sheet.
 
 
