@@ -1,0 +1,205 @@
+=== ENGLISH ===
+
+1. Cafe
+2. Plumbing services
+3. Hair salon
+4. Roofing contractor
+5. Landscaping company
+6. Real estate agency
+7. Dental clinic
+8. Law firm
+9. Accounting firm
+10. HVAC repair
+11. Auto repair shop
+12. Fitness studio
+13. Cleaning services
+14. Construction company
+15. Bakery
+16. Barber shop
+17. Catering services
+18. Pest control
+19. Electrician services
+20. Daycare center
+21. Interior design firm
+22. IT support services
+23. Car dealership
+24. Insurance agency
+25. Wedding planning
+26. Marketing agency
+27. Locksmith services
+28. Pet grooming
+29. Dry cleaning
+30. Photography studio
+31. Printing services
+32. Furniture store
+33. Moving company
+34. Massage therapy
+35. Spa services
+36. Tattoo studio
+37. Florist
+38. Veterinarian clinic
+39. Home cleaning
+40. Carpet cleaning
+41. Personal training
+42. Tailoring services
+43. Event planning
+44. Architecture firm
+45. Home renovation
+46. Security services
+47. Childcare services
+48. Pool cleaning
+49. Financial advisory
+50. Window cleaning
+51. Pest exterminator
+52. Handyman services
+53. Garden center
+54. Auto detailing
+55. Roofing services
+56. Catering company
+57. Car wash
+58. Nail salon
+59. Travel agency
+60. Pharmacy
+61. Landscaping services
+62. Dog walking services
+63. Property management
+64. Funeral services
+65. Optometry clinic
+66. Medical spa
+67. Chiropractor
+68. Health clinic
+69. Auto body shop
+70. Appliance repair
+71. Painting contractor
+72. Rubbish removal
+73. Water damage restoration
+74. Flooring services
+75. Pool installation
+76. Solar installation
+77. Tree service
+78. Personal chef services
+79. Private tutor
+80. Lawn care services
+81. Boat repair
+82. Video production company
+83. Digital marketing agency
+84. Mortgage broker
+85. Speech therapy clinic
+86. Tax preparation services
+87. Logistics company
+88. Property inspection services
+89. Nutritionist
+90. Recruitment agency
+91. Travel tour operator
+92. Waste management company
+93. Courier services
+94. Freight forwarding
+95. Martial arts school
+96. Pet boarding services
+97. Car rental company
+98. SEO consulting
+99. Event photography
+100. Online store
+
+=== CZECH ===
+
+1. Kavárna
+2. Instalatérské služby
+3. Kadeřnictví
+4. Pokrývačská firma
+5. Zahradnické služby
+6. Realitní kancelář
+7. Zubní ordinace
+8. Advokátní kancelář
+9. Účetní firma
+10. Opravy klimatizací
+11. Autoservis
+12. Fitness studio
+13. Úklidové služby
+14. Stavební firma
+15. Pekařství
+16. Holičství
+17. Cateringové služby
+18. Deratizace
+19. Elektrikářské služby
+20. Dětská školka
+21. Interiérový design
+22. IT podpora
+23. Autosalon
+24. Pojišťovací agentura
+25. Svatební agentura
+26. Marketingová agentura
+27. Zámečnické služby
+28. Péče o domácí mazlíčky
+29. Čistírna oděvů
+30. Fotografické studio
+31. Tiskové služby
+32. Prodejna nábytku
+33. Stěhovací firma
+34. Masážní terapie
+35. Lázeňské služby
+36. Tetovací studio
+37. Květinářství
+38. Veterinární klinika
+39. Úklid domácností
+40. Čištění koberců
+41. Osobní trénink
+42. Krejčovské služby
+43. Plánování akcí
+44. Architektonická firma
+45. Rekonstrukce domů
+46. Bezpečnostní služby
+47. Péče o děti
+48. Čištění bazénů
+49. Finanční poradenství
+50. Mytí oken
+51. Exterminace škůdců
+52. Opravářské služby
+53. Zahradní centrum
+54. Ruční mytí aut
+55. Opravy střech
+56. Cateringová firma
+57. Automyčka
+58. Nehtové studio
+59. Cestovní kancelář
+60. Lékárna
+61. Zahradnické služby
+62. Venčení psů
+63. Správa nemovitostí
+64. Pohřební služby
+65. Oční ordinace
+66. Lékařské lázně
+67. Chiropraktik
+68. Zdravotní klinika
+69. Autoopravna
+70. Opravy spotřebičů
+71. Malířské služby
+72. Odvoz odpadu
+73. Obnova po vodním poškození
+74. Pokládání podlah
+75. Instalace bazénů
+76. Instalace solárních panelů
+77. Péče o stromy
+78. Osobní kuchařské služby
+79. Soukromý učitel
+80. Péče o trávník
+81. Opravy lodí
+82. Produkce videí
+83. Digitální marketingová agentura
+84. Hypoteční poradce
+85. Logopedická klinika
+86. Daňové poradenství
+87. Logistická firma
+88. Inspekce nemovitostí
+89. Výživový poradce
+90. Personální agentura
+91. Cestovní operátor
+92. Odpadové hospodářství
+93. Kurýrní služby
+94. Přeprava zboží
+95. Škola bojových umění
+96. Psí hotel
+97. Půjčovna aut
+98. SEO konzultace
+99. Fotografie z akcí
+100. Online obchod
