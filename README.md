@@ -30,8 +30,14 @@
     1. Run `sh EnviromentMaker.sh` (needed to be done only once)
     2. Run `sudo sh Start.sh`
   4. Input town
-  5. Copy the keywords from created `.txt` file and you are all set !
+  5  Input keyword block size (optional)
+  5. Copy the keywords from created `.txt` files and you are all set !
 
+
+## Example Output
+```txt
+Example Cafe,Example Plumbing services,Example Hair salon,Example Roofing contractor,Example Landscaping company,Example Real estate agency,Example Dental clinic,Example Law firm,Example Accounting firm,Example HVAC repair,
+```
 
 
 # HTML
@@ -136,9 +142,8 @@
             showMessage("Please enter at least one keyword.", "error");
             return;
         }
-        google.script.run.withSuccessHandler(function(){
-            showMessage("Scraping initiated. Check the sheet for updates.", "success");
-        }).withFailureHandler(function(err){
+        showMessage("Scraping initiated. Check the sheet for updates.", "success");
+        google.script.run.withSuccessHandler().withFailureHandler(function(err){
             showMessage("Error: " + err, "error");
         }).scrapeBusinessInfoForMultipleKeywords(keywords);
       }
@@ -181,7 +186,7 @@ function scrapeBusinessInfo(keyword, nextPageToken = '') {
 
   switch (json.status) {
     case 'OK':
-      processBusinessResults(json.results, apiKey);
+      processBusinessResults(json.results, apiKey, keyword); // Pass keyword to the results processor
       if (json.next_page_token) {
         Utilities.sleep(2000); // Delay for API's next page token availability
         scrapeBusinessInfo(keyword, json.next_page_token);
@@ -196,7 +201,9 @@ function scrapeBusinessInfo(keyword, nextPageToken = '') {
   }
 }
 
-function processBusinessResults(results, apiKey) {
+function processBusinessResults(results, apiKey, keyword) {
+  const currentDate = new Date(); // Get current date
+
   results.forEach(function(business) {
     const details = getBusinessDetails(business.place_id, apiKey);
     const data = [
@@ -204,6 +211,8 @@ function processBusinessResults(results, apiKey) {
       business.formatted_address,
       details.website || 'N/A',
       details.formatted_phone_number || 'N/A',
+      keyword, 
+      currentDate
     ];
     appendDataToSheet(data);
   });
@@ -225,8 +234,6 @@ function appendDataToSheet(data) {
 
 # Keywords
 ```txt
-=== ENGLISH ===
-
 1. Cafe
 2. Plumbing services
 3. Hair salon
@@ -328,7 +335,7 @@ function appendDataToSheet(data) {
 99. Event photography
 100. Online store
 
-=== CZECH ===
+=== ENGLISH ===
 
 1. Kavárna
 2. Instalatérské služby
@@ -431,6 +438,6 @@ function appendDataToSheet(data) {
 99. Fotografie z akcí
 100. Online obchod
 
-
+=== CZECH ===
 ```
 
